@@ -1,6 +1,6 @@
 # -*- codeing: utf-8 -*-
 
-# list是一种有序的集合，可以随时添加和删除其中的元素
+## list 列表，是一种有序的集合，可以随时添加和删除其中的元素
 classname = ['Michael', 'Bob', 'Tracy']
 print(f'数组：{classname}，长度：{len(classname)}')
 # 取最后一个元素，除了计算索引位置外，还可以用-1做索引，直接获取最后一个元素,以此类推，可以获取倒数第2个、倒数第3个
@@ -28,7 +28,7 @@ print(f'元素替换后：{classname}')
 L = ['Apple', 123, True]
 print(f'list里面的元素的数据类型也可以不同：{L}')
 
-# tuple，tuple和list非常类似，但是tuple一旦初始化就不能修改
+## tuple 元组，tuple和list非常类似，但是tuple一旦初始化就不能修改
 # tuple不可变，所以代码更安全。如果可能，能用tuple代替list就尽量用tuple
 # tuple的陷阱：当你定义一个tuple时，在定义的时候，tuple的元素就必须被确定下来
 # 如果要定义一个空的tuple，可以写成()

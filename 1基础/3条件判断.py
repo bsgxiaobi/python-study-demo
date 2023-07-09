@@ -1,3 +1,5 @@
+# -*- codeing: utf-8 -*-
+
 # 只要条件是非零数值、非空字符串、非空list等，就判断为True，否则为False
 x = None
 if x:

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # python的循环有两种，一种是for...in循环，依次把list或tuple中的每个元素迭代出来
 names = ['Michael', 'Bob', 'Tracy']
 for item in names:
